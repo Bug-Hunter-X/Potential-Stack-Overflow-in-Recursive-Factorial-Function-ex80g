@@ -1,0 +1,3 @@
+# Potential Stack Overflow in Recursive Factorial Function
+
+This repository demonstrates a potential stack overflow error in a recursive factorial function written in Hack.  The function `foo` calculates the factorial using recursion. However, it lacks input validation and fails to handle large negative numbers, leading to a stack overflow when called with sufficiently large negative inputs.  The solution demonstrates a corrected version of the function that handles negative inputs gracefully. 
